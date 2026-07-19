@@ -1,0 +1,50 @@
+banner:
+  title: Hi! I'm Carson
+  image: /img/Carsonimg.jpg
+
+social:
+  linkedin: carson-adamson-267980325
+  github: Carson-1505
+  instagram: carsonadamson15
+  gmail: carsonadamson15
+
+about:
+  enable: true
+  content: 4th year Computer Engineering Student at the University of Oklahoma
+  button:
+    btnText: Find out more
+    URL: "/about"
+
+skill:
+  enable: true
+  item:
+    - title: JavaScript
+      logo: "JavaScript-icon.svg"
+      description: Details coming soon, contact me if you want to know more
+
+portfolio:
+  enable: true
+  item:
+    - title: Lorenz System
+      image: /img/LorenzPlotImage.png
+      description: A website used to generate the Lorenz System using the Midpoint or Euler Method
+      tools:
+        - rust
+        - javascript
+        - git
+
+experience:
+  enable: true
+  item:
+    - logo: /img/JackpotLogo.png
+      title: Dealer
+      company: Jackpot Casino Parties
+      duration: November 2023
+
+education:
+  enable: true
+  item:
+    - title: BS Computer Engineering
+      year: 2023-present
+      academy: University of Oklahoma
+      image: /img/OUlogo.svg
