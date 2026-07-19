@@ -1,82 +1,40 @@
 baseURL = 'https://example.org/'
 locale = 'en-us'
-title = 'My New Hugo Project'
-theme = 'careercanvas'
+title = 'Carson Adamson'
+theme = 'hugo-developer-portfolio'
+
+[params.plugins]
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "https://cdn.jsdelivr.net/npm/uikit@3.25.19/dist/css/uikit.min.css"
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "https://cdn.jsdelivr.net/npm/uikit@3.25.19/dist/js/uikit.min.js"
+  [[params.plugins.js]]
+  URL = "https://cdn.jsdelivr.net/npm/uikit@3.25.19/dist/js/uikit-icons.min.js"
+
+# navigation
+[menu]
+  [[menu.main]]
+  name = "About"
+  URL = "about"
+  [[menu.main]]
+  name = "Blog"
+  URL = "blog"
+  [[menu.main]]
+  name = "Portfolio"
+  URL = "portfolio"
+  [[menu.main]]
+  name = "Contact"
+  URL = "contact"
 
 [params]
-  name = "Your Name"
-  email = "your@email.com"
-  profile_image = "/images/your-profile.jpg"
-  author = "Your Name"
-  og_image = "images/your-og.png"
-  description = "One-line site description for SEO."
-  linkedin_url = "https://linkedin.com/in/yourprofile"
-  linkedin_text = "linkedin.com/in/yourprofile"
-  github_url = "https://github.com/yourusername"
-  github_text = "github.com/yourusername"
-  calendly_url = ""
-  calendly_height = "700px"
-  copyright = "© 2025 | Your Name"
-  resume_url_en = "/files/your-cv-en.pdf"
-  resume_url_fr = "/files/your-cv-fr.pdf"
-  resume_label = "View CV"
-  sectionPagesMenu = "main"
-  formspreeendpoint = ""
-  pexelsapikey = ""
+home = "Home" # What you want the homepage to show up as in the menu bar
+# Meta data
+description = "The personal website for Carson Adamson"
+author = "Carson Adamson"
 
-  [[params.social]]
-    icon = "linkedin-in"
-    url = "https://linkedin.com/in/yourprofile"
-  [[params.social]]
-    icon = "github"
-    url = "https://github.com/yourusername"
-  # [[params.social]]
-  #   icon = "calendly"
-  #   url = "https://calendly.com/yourlink"
-
-[taxonomies]
-  tag = "tags"
-
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-  [markup.highlight]
-    style = "monokai"
-
-[server]
-  [[server.headers]]
-    for = "/**/*.css"
-    [server.headers.values]
-      Content-Type = "text/css"
-
-[security]
-  [security.funcs]
-    getenv = ['^HUGO_', '^CI$']
-
-# One palette is picked at random per page load. Each needs name, main_color, second_color, third_color (hex).
-[params.color_palettes]
-  [[params.color_palettes.palette]]
-    name = "professional"
-    main_color = "#474A51"
-    second_color = "#E52521"
-    third_color = "#3CB043"
-  [[params.color_palettes.palette]]
-    name = "ocean"
-    main_color = "#1E40AF"
-    second_color = "#06B6D4"
-    third_color = "#10B981"
-  [[params.color_palettes.palette]]
-    name = "steel"
-    main_color = "#374151"
-    second_color = "#6B7280"
-    third_color = "#10B981"
-  [[params.color_palettes.palette]]
-    name = "slate"
-    main_color = "#475569"
-    second_color = "#0EA5E9"
-    third_color = "#F97316"
-
-# Pexels hero backgrounds
-[params.pexels]
-  queries = ["long span bridges", "skyscrapers", "sky and clouds"]
+  # This contains the contact information for the footer
+  [params.footer]
+  email = "carsonadamson15@gmail.com"
+  address = "Oklahoma City, OK"
