@@ -30,7 +30,12 @@ experience:
     - logo: /img/JackpotLogo.png
       title: Dealer
       company: Jackpot Casino Parties
-      duration: November 2023
+      duration: 2023-present
+
+    - logo: /img/bricktownballpark.png
+      title: Customer Service
+      company: Bricktown Ballpark
+      duration: 2023-2024
 
 education:
   enable: true
