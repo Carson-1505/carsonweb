@@ -56,6 +56,16 @@
     background:  var(--timeline-color);
 }
 
+.timeline li#rose-state:before {
+    background: gold;
+    border: 1px rgb(32, 32, 223) solid;
+}
+
+.timeline li#u-oklahoma:before {
+    background: crimson;
+    border: rgb(225, 225, 211);
+}
+
 
 /* style for the event arrow */
 .timeline div:before {

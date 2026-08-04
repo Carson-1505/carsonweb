@@ -11,16 +11,7 @@ social:
 about:
   enable: true
   content: 4th year Computer Engineering Student at the University of Oklahoma
-  button:
-    btnText: Find out more
-    URL: "/about"
 
-skill:
-  enable: true
-  item:
-    - title: JavaScript
-      logo: "JavaScript-icon.svg"
-      description: Details coming soon, contact me if you want to know more
 
 portfolio:
   enable: true
@@ -48,3 +39,8 @@ education:
       year: 2023-present
       academy: University of Oklahoma
       image: /img/OUlogo.svg
+
+    - title: AS General Science
+      year: 2023-2024
+      academy: Rose State College
+      image: /img/RoseLogo.jpg
