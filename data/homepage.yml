@@ -27,25 +27,36 @@ portfolio:
 experience:
   enable: true
   item:
-    - logo: /img/JackpotLogo.png
-      title: Dealer
-      company: Jackpot Casino Parties
-      duration: 2023-present
 
     - logo: /img/bricktownballpark.png
       title: Customer Service
       company: Bricktown Ballpark
-      duration: 2023-2024
+      duration: 2023 - 2024
+
+    - logo: /img/JackpotLogo.png
+      title: Dealer
+      company: Jackpot Casino Parties
+      duration: 2023 - Present
+
+    - logo: /img/SigmaChiLogo.jpg
+      title: Recruitment Chair
+      company: Sigma Chi - Beta Kappa
+      duration: 2024 - Present
 
 education:
   enable: true
   item:
-    - title: BS Computer Engineering
-      year: 2023-present
-      academy: University of Oklahoma
-      image: /img/OUlogo.svg
+    - title: Pre-Engineering Certification
+      year: 2021 - 2023
+      academy: Eastern Oklahoma County Technology
+      image: /img/EOCtech.png
 
     - title: AS General Science
-      year: 2023-2024
+      year: 2023 - 2024
       academy: Rose State College
       image: /img/RoseLogo.jpg
+
+    - title: BS Computer Engineering
+      year: 2024 - Present
+      academy: University of Oklahoma
+      image: /img/OUlogo.svg

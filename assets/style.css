@@ -83,7 +83,7 @@
 /* position of the event arrow in odd position */
 .timeline li:nth-child(2n - 1) div:before {
     top: 100%;
-    margin-top: -8px;
+    margin-top: -9px;
     border-right: 1px var(--timeline-color) solid;
     border-bottom: 1px var(--timeline-color) solid; }
 
