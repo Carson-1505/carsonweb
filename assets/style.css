@@ -1,3 +1,8 @@
+:root {
+    --timeline-color: #9bc;
+    --timeline-height: 300px;
+}
+
 .circle-crop {
     border-radius: 100%;
 }
@@ -13,7 +18,8 @@
     flex-wrap: nowrap;
     margin: 0;
     padding: 0;
-    height: 480px; }  /* set here the height of the timeline */
+    /* height: 480px; */
+}  /* set here the height of the timeline */
 
 
 /* middle line */
@@ -27,20 +33,30 @@
 
 
 .timeline li {
-    margin: 0 20px;
+    margin: 0 20px 0 20px;
     min-width: 200px;
-    align-self: flex-start; }
+    /* align-self: flex-start; */
+}
 
 
 /*  event in even position are bottom-aligned */
-.timeline li:nth-child(2n) { align-self: flex-end;  }
+.timeline li:nth-child(2n) {
+    /* align-self: flex-end; */
+    margin-bottom: auto;
+    margin-top: var(--timeline-height);
+}
+
+.timeline li:nth-child(2n+1) {
+    margin-top: auto;
+    margin-bottom: var(--timeline-height);
+}
 
 
 .timeline div {
     position: relative;
     padding: 10px;
-    border: 1px var(--timeline-color) solid; }
-
+    border: 1px var(--timeline-color) solid;
+}
 
 /* style for the dot over the timeline */
 .timeline li:before {
