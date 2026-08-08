@@ -10,7 +10,7 @@
 .timeline {
 
     /* set a variable for the color */
-    --timeline-color: #9bc;
+    --timeline-color: black;
 
     position: relative;
     list-style: none;

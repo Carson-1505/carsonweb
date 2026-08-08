@@ -24,10 +24,19 @@ portfolio:
         - javascript
         - git
 
+    - title: Buzzed
+      image: /img/BuzzedImg.jpg
+      link: https://buzzed-snowy.vercel.app/
+      description: This website was designed to connect my creativity and software engineering in order to create a unique UI.
+      tools:
+        - typescript
+        - react
+        - tailwindcss
+        - vercel
+
 experience:
   enable: true
   item:
-
     - logo: /img/bricktownballpark.png
       title: Customer Service
       company: Bricktown Ballpark
