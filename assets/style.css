@@ -3,6 +3,19 @@
     --timeline-height: 300px;
 }
 
+body {
+    /* font-family: cursive, sans-serif; */
+}
+
+/* Overwriting the css in hugo-developer-portfolio */
+li {
+    font-weight: 400;
+    color: #454545;
+    font-size: 1rem;
+    line-height: 1.8;
+    font-family: Cantarell, sans-serif;
+}
+
 .circle-crop {
     border-radius: 100%;
 }
@@ -11,7 +24,6 @@
 
     /* set a variable for the color */
     --timeline-color: black;
-
     position: relative;
     list-style: none;
     display: inline-flex;

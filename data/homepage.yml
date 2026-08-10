@@ -18,6 +18,7 @@ portfolio:
   item:
     - title: Lorenz System
       image: /img/LorenzPlotImage.png
+      link: /lorenz
       description: A website used to generate the Lorenz System using the Midpoint or Euler Method
       tools:
         - rust
