@@ -1,0 +1,25 @@
+
+.lorenz-button {
+    background-color: white;
+    color: #111111;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 999px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+#plot-euler {
+    width: 800px;
+    margin: auto;
+}
+.plot-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.plot {
+    flex: 1;
+}
+.plot img {
+    width: 500px;
+}
