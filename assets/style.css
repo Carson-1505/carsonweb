@@ -8,12 +8,14 @@ body {
 }
 
 /* Overwriting the css in hugo-developer-portfolio */
-li {
+.timeline li {
     font-weight: 400;
     color: #454545;
     font-size: 1rem;
     line-height: 1.8;
     font-family: Cantarell, sans-serif;
+    margin: 0 20px;
+    min-width: 200px;
 }
 
 .circle-crop {
@@ -42,13 +44,6 @@ li {
     width: 100%;
     height: 2px;
     background: var(--timeline-color); }
-
-
-.timeline li {
-    margin: 0 20px 0 20px;
-    min-width: 200px;
-    /* align-self: flex-start; */
-}
 
 
 /*  event in even position are bottom-aligned */
