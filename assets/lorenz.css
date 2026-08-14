@@ -1,25 +1,58 @@
 
 .lorenz-button {
-    background-color: white;
-    color: #111111;
-    border: none;
     padding: 12px 20px;
+    border: 1px solid #111;
     border-radius: 999px;
+    background-color: #fff;
+    color: #111;
+    font: inherit;
     font-weight: 600;
     cursor: pointer;
-    transition: 0.2s ease;
+    transition:
+        background-color 0.2s ease,
+        color 0.2s ease,
+        transform 0.2s ease;
 }
+
+.lorenz-button:hover {
+    background-color: #111;
+    color: #fff;
+}
+
+.lorenz-button:active {
+    transform: translateY(1px);
+}
+
+.lorenz-button:focus-visible {
+    outline: 3px solid #5b9dd9;
+    outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .lorenz-button {
+        transition: none;
+    }
+}
+
 #plot-euler {
-    width: 800px;
-    margin: auto;
+    width: 100%;
+    max-width: 800px;
+    margin-inline: auto;
 }
+
 .plot-container {
     display: flex;
     flex-wrap: wrap;
+    gap: 2rem;
 }
+
 .plot {
-    flex: 1;
+    flex: 1 1 300px;
+    min-width: 0;
 }
+
 .plot img {
-    width: 500px;
+    display: block;
+    width: 100%;
+    height: auto;
 }
