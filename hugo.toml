@@ -29,3 +29,7 @@ author = "Carson Adamson"
   [params.footer]
   email = "carsonadamson15@gmail.com"
   address = "Oklahoma City, OK"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
