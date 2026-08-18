@@ -1,6 +1,6 @@
 banner:
   title: Hi! I'm Carson
-  image: /img/Carsonimg.jpg
+  image: img/Carsonimg.jpg
 
 social:
   linkedin: carson-adamson-267980325
@@ -17,7 +17,7 @@ portfolio:
   enable: true
   item:
     - title: Lorenz System
-      image: /img/LorenzPlotImage.png
+      image: img/LorenzPlotImage.png
       link: /lorenz
       description: A website used to generate the Lorenz System using the Midpoint or Euler Method
       tools:
@@ -26,7 +26,7 @@ portfolio:
         - git
 
     - title: Buzzed
-      image: /img/BuzzedImg.jpg
+      image: img/BuzzedImg.jpg
       link: https://buzzed-snowy.vercel.app/
       description: This website was designed to connect my creativity and software engineering in order to create a unique UI.
       tools:
@@ -38,17 +38,17 @@ portfolio:
 experience:
   enable: true
   item:
-    - logo: /img/bricktownballpark.png
+    - logo: img/bricktownballpark.png
       title: Customer Service
       company: Bricktown Ballpark
       duration: 2023 - 2024
 
-    - logo: /img/JackpotLogo.png
+    - logo: img/JackpotLogo.png
       title: Dealer
       company: Jackpot Casino Parties
       duration: 2023 - Present
 
-    - logo: /img/SigmaChiLogo.jpg
+    - logo: img/SigmaChiLogo.jpg
       title: Recruitment Chair
       company: Sigma Chi - Beta Kappa
       duration: 2024 - Present
@@ -59,7 +59,7 @@ education:
     - title: Pre-Engineering Certification
       year: 2021 - 2023
       academy: Eastern Oklahoma County Technology
-      image: /img/EOCtech.png
+      image: img/EOCtech.png
 
     - title: AS General Science
       year: 2023 - 2024
@@ -69,4 +69,4 @@ education:
     - title: BS Computer Engineering
       year: 2024 - Present
       academy: University of Oklahoma
-      image: /img/OUlogo.svg
+      image: img/OUlogo.svg
