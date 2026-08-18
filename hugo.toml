@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://carson-1505.github.io/carsonweb'
 locale = 'en-us'
 title = 'Carson Adamson'
 theme = 'hugo-developer-portfolio'
