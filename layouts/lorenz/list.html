@@ -18,14 +18,14 @@
     <h1>Lorenz Plot</h1>
     <div class="plot-container">
         <div class="plot">
-            <img src="img/LorenzPlotImage.png"/>
+            <img src="{{ .Site.BaseURL }}/img/LorenzPlotImage.png"/>
             <p>
                 The image above was generated using MATLAB. This image
                 shows the midpoint method being implemented to simulate the Lorenz System.
             </p>
         </div>
         <div class="plot">
-            <img src="img/LorenzPlotImage2.png"/>
+            <img src="{{ .Site.BaseURL }}/img/LorenzPlotImage2.png"/>
             <p>
                 The image above shows the Euler method being implemented.
             </p>
@@ -35,7 +35,7 @@
     <button class="lorenz-button" id="euler-button" onclick="animate_lorenz('lorenzdata_euler.csv')">Euler Method</button>
     <button class="lorenz-button" id="midpoint-button" onclick="animate_lorenz('lorenzdata_midpoint.csv')">Midpoint Method</button>
 
-<script src="js/lorenz.js"></script>
+<script src="{{ .Site.BaseURL }}/js/lorenz.js"></script>
 
 </section>
 
