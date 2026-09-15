@@ -20,6 +20,12 @@ I am a Computer Engineering student at the University of Oklahoma, graduating in
 - Contact information and professional links
 - Responsive design for desktop and mobile devices
 
+## Resume PDF
+
+Place your resume at `static/resume.pdf`. A **View my resume (PDF)** link will
+automatically appear in the footer. Replace that file whenever you update your
+resume. The link stays hidden until the PDF is present.
+
 ## Technologies Used
 
 - JavaScript/Rust
