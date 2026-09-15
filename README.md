@@ -1,7 +1,5 @@
 # Carson Adamson Website
 
-# Carson Adamson — Personal Website
-
 This repository contains the source code for my personal portfolio website. The website highlights my background in computer engineering, technical skills, projects, education, and professional experience.
 
 ## Live Website
