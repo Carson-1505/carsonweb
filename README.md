@@ -27,6 +27,7 @@ I am a Computer Engineering student at the University of Oklahoma, graduating in
 - JavaScript/Rust
 - HTML and CSS
 - Github Pages
+- HUGO
 
 ## Featured Projects
 
