@@ -86,7 +86,7 @@
     height: 10px;
     border: 1px solid var(--timeline-color);
     border-radius: 50%;
-    background: var(--timeline-color);
+    background: #fff;
     transform: translate(-50%, -50%);
 }
 
