@@ -32,11 +32,14 @@ async function lorenz_plot() {
             mode: 'markers'
         }],
         {
+            autosize: true,
+            margin: {l: 40, r: 20, t: 24, b: 40},
             xaxis: {range: [-40, 40]},
             yaxis: {range: [0, 60]}
         },
         {
-            displayModeBar: false
+            displayModeBar: false,
+            responsive: true
         }
     )
 }

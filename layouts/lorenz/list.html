@@ -4,38 +4,39 @@
 {{ $lorenz := resources.Get "/lorenz.css" | minify }}
 <link rel="stylesheet" href="{{ $lorenz.Permalink | relURL}}">
 
-<section class="uk-margin-large-bottom">
-
-<!-- <head>
-    <meta charset="utf-8">
-    <title>Lorenz Simulation</title>
-    <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet" href="index.css">
-    <script src="https://cdn.plot.ly/plotly-3.6.0.min.js" charset="utf-8"></script>
-    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
-</head> -->
-
-    <h1>Lorenz Plot</h1>
+<section class="lorenz-page">
+    <header class="lorenz-header">
+        <h1>Lorenz Plot</h1>
+        <p>Explore the Lorenz system using the Euler and midpoint methods.</p>
+    </header>
     <div class="plot-container">
         <div class="plot">
-            <img src="{{ .Site.BaseURL }}/img/LorenzPlotImage.png"/>
+            <h2>Midpoint method</h2>
+            <img src="{{ "img/LorenzPlotImage.png" | relURL }}" alt="Lorenz system simulated using the midpoint method"/>
             <p>
                 The image above was generated using MATLAB. This image
                 shows the midpoint method being implemented to simulate the Lorenz System.
             </p>
         </div>
         <div class="plot">
-            <img src="{{ .Site.BaseURL }}/img/LorenzPlotImage2.png"/>
+            <h2>Euler method</h2>
+            <img src="{{ "img/LorenzPlotImage2.png" | relURL }}" alt="Lorenz system simulated using the Euler method"/>
             <p>
                 The image above shows the Euler method being implemented.
             </p>
         </div>
     </div>
-    <div id="plot-euler"></div>
-    <button class="lorenz-button" id="euler-button" onclick="animate_lorenz('lorenzdata_euler.csv')">Euler Method</button>
-    <button class="lorenz-button" id="midpoint-button" onclick="animate_lorenz('lorenzdata_midpoint.csv')">Midpoint Method</button>
+    <section class="lorenz-simulation" aria-labelledby="simulation-title">
+        <h2 id="simulation-title">See it in motion</h2>
+        <p>Choose a method to start the simulation.</p>
+        <div class="lorenz-controls" role="group" aria-label="Simulation method">
+            <button type="button" class="lorenz-button" id="euler-button" onclick="animate_lorenz('lorenzdata_euler.csv')">Euler Method</button>
+            <button type="button" class="lorenz-button" id="midpoint-button" onclick="animate_lorenz('lorenzdata_midpoint.csv')">Midpoint Method</button>
+        </div>
+        <div id="plot-euler" role="img" aria-label="Animated Lorenz system plot"></div>
+    </section>
 
-<script src="{{ .Site.BaseURL }}/js/lorenz.js"></script>
+<script src="{{ "js/lorenz.js" | relURL }}"></script>
 
 </section>
 
