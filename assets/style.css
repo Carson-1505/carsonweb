@@ -65,16 +65,6 @@
     transform: translate(-50%, -50%);
 }
 
-.timeline > li#dealer::before {
-    background: gold;
-    border-color: rgb(32, 32, 223);
-}
-
-.timeline > li#rose-state::before {
-    background: crimson;
-    border-color: rgb(225, 225, 211);
-}
-
 .timeline > li > div::before {
     content: "";
     position: absolute;
