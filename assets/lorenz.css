@@ -1,4 +1,50 @@
 
+.lorenz-page {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 32px 24px 72px;
+}
+
+.lorenz-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.lorenz-header h1 {
+    margin: 0 0 16px;
+    font-size: clamp(2.25rem, 5vw, 3.5rem);
+}
+
+.lorenz-header p,
+.lorenz-simulation > p {
+    color: #595959;
+    margin: 0 auto;
+    max-width: 560px;
+    line-height: 1.7;
+}
+
+.lorenz-simulation {
+    margin-top: 40px;
+    padding: 32px 16px 16px;
+    border: 1px solid #e2e2e2;
+    border-radius: 16px;
+    text-align: center;
+    background: #fff;
+}
+
+.lorenz-page h2 {
+    margin: 0 0 12px;
+    font-size: 1.5rem;
+}
+
+.lorenz-controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin: 24px 0 8px;
+}
+
 .lorenz-button {
     padding: 12px 20px;
     border: 1px solid #111;
@@ -40,19 +86,45 @@
     margin-inline: auto;
 }
 
-.plot-container {
+.lorenz-page .plot-container {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
 }
 
-.plot {
+.lorenz-page .plot {
     flex: 1 1 300px;
     min-width: 0;
+    padding: 24px;
+    border: 1px solid #e2e2e2;
+    border-radius: 16px;
+    background: #fafafa;
+    box-sizing: border-box;
 }
 
-.plot img {
+.lorenz-page .plot img {
     display: block;
     width: 100%;
     height: auto;
+    border-radius: 8px;
+}
+
+.lorenz-page .plot p {
+    margin: 20px 0 0;
+    color: #595959;
+    line-height: 1.7;
+}
+
+@media (max-width: 600px) {
+    .lorenz-page {
+        padding: 24px 16px 48px;
+    }
+
+    .lorenz-page .plot {
+        padding: 16px;
+    }
+
+    .lorenz-simulation {
+        padding: 24px 8px 8px;
+    }
 }
